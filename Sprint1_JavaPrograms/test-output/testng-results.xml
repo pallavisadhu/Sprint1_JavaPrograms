@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-18T17:29:57 CST" name="Default suite" finished-at="2022-12-18T17:29:57 CST" duration-ms="125">
+  <suite started-at="2022-12-19T10:18:58 CST" name="Default suite" finished-at="2022-12-19T10:18:58 CST" duration-ms="110">
     <groups>
     </groups>
-    <test started-at="2022-12-18T17:29:57 CST" name="Default test" finished-at="2022-12-18T17:29:57 CST" duration-ms="125">
-      <class name="sprint1_java.SumOfEvenAndOddNumbers">
-        <test-method signature="testCase1()[pri:0, instance:sprint1_java.SumOfEvenAndOddNumbers@932bc4a]" started-at="2022-12-18T17:29:57 CST" name="testCase1" finished-at="2022-12-18T17:29:57 CST" duration-ms="21" status="PASS">
+    <test started-at="2022-12-19T10:18:58 CST" name="Default test" finished-at="2022-12-19T10:18:58 CST" duration-ms="110">
+      <class name="sprint1_java.JavaCollection">
+        <test-method signature="testCase1()[pri:0, instance:sprint1_java.JavaCollection@57af006c]" started-at="2022-12-19T10:18:58 CST" name="testCase1" finished-at="2022-12-19T10:18:58 CST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:0, instance:sprint1_java.SumOfEvenAndOddNumbers@932bc4a]" started-at="2022-12-18T17:29:57 CST" name="testCase2" finished-at="2022-12-18T17:29:57 CST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method signature="testCase3()[pri:0, instance:sprint1_java.SumOfEvenAndOddNumbers@932bc4a]" started-at="2022-12-18T17:29:57 CST" name="testCase3" finished-at="2022-12-18T17:29:57 CST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase3 -->
-      </class> <!-- sprint1_java.SumOfEvenAndOddNumbers -->
+      </class> <!-- sprint1_java.JavaCollection -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
