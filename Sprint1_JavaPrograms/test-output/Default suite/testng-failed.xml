@@ -5,6 +5,7 @@
     <classes>
       <class name="sprint1_java.PhonebillCalculator">
         <methods>
+          <include name="testCase1"/>
           <include name="testCase2"/>
         </methods>
       </class> <!-- sprint1_java.PhonebillCalculator -->

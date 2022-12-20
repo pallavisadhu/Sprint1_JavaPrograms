@@ -10,7 +10,7 @@ public class PhonebillCalculator {
 		double f = calculateOverageFees(min);
 		System.out.println("Overage fee:"+f);
 		
-		double t = calculateTax(f);
+		double t = calculateTax(f,planFee);
 		System.out.println("Tax:"+t);
 
 		double totalBill = calculateFinalBill(planFee,t,f);
@@ -31,8 +31,8 @@ public class PhonebillCalculator {
 
 
 
-	private double calculateTax(double f) {
-		double tax = f * 0.15;
+	private double calculateTax(double f, double p) {
+		double tax = (p+f) * 0.15;
 		return tax;
 	}
 
@@ -54,7 +54,7 @@ public class PhonebillCalculator {
 		double planFee = 100;
 		int min=50;
 		double output = calculateBill(planFee,min);
-		Assert.assertEquals(output, 114.375);
+		Assert.assertEquals(output, 129.375);
 	}
 	
 	@Test
@@ -62,7 +62,7 @@ public class PhonebillCalculator {
 		double planFee = 100;
 		int min=0;
 		double output = calculateBill(planFee,min);
-		Assert.assertEquals(output, 100);
+		Assert.assertEquals(output, 115);
 	}
 
 }
