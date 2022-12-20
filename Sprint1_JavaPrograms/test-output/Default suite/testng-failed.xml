@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sprint1_java.MathChallenge">
+      <class name="sprint1_java.PhonebillCalculator">
         <methods>
-          <include name="testCase1"/>
+          <include name="testCase2"/>
         </methods>
-      </class> <!-- sprint1_java.MathChallenge -->
+      </class> <!-- sprint1_java.PhonebillCalculator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
