@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sprint1_java.GradeGenerator">
+      <class name="sprint1_java.ArrangingArray">
         <methods>
           <include name="testCase1"/>
         </methods>
-      </class> <!-- sprint1_java.GradeGenerator -->
+      </class> <!-- sprint1_java.ArrangingArray -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
